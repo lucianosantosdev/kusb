@@ -1,5 +1,6 @@
 [versions]
 agp = "8.3.0-alpha13"
+android-usbserial = "3.7.0"
 kotlin = "1.9.20"
 compose = "1.5.4"
 compose-compiler = "1.5.4"
@@ -30,6 +31,7 @@ androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", versi
 androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+android-usbserial = { group = "com.github.mik3y", name = "usb-serial-for-android", version.ref = "android-usbserial" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

@@ -1,5 +1,9 @@
 package dev.lucianosantos.kusb.api
 
-class Parity {
-
+enum class Parity {
+    NONE,
+    ODD,
+    EVEN,
+    MARK,
+    SPACE,
 }

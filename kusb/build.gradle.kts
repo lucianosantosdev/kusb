@@ -13,11 +13,13 @@ kotlin {
     }
 
     sourceSets {
+        androidMain.dependencies {
+            implementation(libs.android.usbserial)
+        }
         commonMain.dependencies {
             //put your multiplatform dependencies here
         }
         commonTest.dependencies {
-            implementation(libs.kotlin.test)
         }
     }
 }
